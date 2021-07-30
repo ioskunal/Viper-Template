@@ -34,4 +34,8 @@ class ___VARIABLE_productName:identifier___ViewController: BaseControllerVC {
 
 extension ___VARIABLE_productName:identifier___ViewController: PresenterToView___VARIABLE_productName:identifier___Protocol {
     
+    func showAlert(_ title: String, _ message: String) {
+        alert(title, message)
+    }
+
 }

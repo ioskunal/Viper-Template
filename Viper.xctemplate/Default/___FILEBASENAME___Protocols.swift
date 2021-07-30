@@ -9,7 +9,7 @@
 import Foundation
 
 protocol PresenterToView___VARIABLE_productName:identifier___Protocol: class {
-    
+    func showAlert(_ title: String, _ message: String)
 }
 
 protocol ViewToPresenter___VARIABLE_productName:identifier___Protocol: class {
@@ -24,7 +24,7 @@ protocol PresenterToInteractor___VARIABLE_productName:identifier___Protocol: cla
 }
 
 protocol InteractorToPresenter___VARIABLE_productName:identifier___Protocol: class {
-    
+        func showAlert(_ title: String, _ message: String)
 }
 
 protocol PresenterToRouter___VARIABLE_productName:identifier___Protocol: class {

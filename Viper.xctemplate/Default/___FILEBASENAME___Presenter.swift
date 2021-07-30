@@ -24,4 +24,8 @@ class ___VARIABLE_productName:identifier___Presenter: ViewToPresenter___VARIABLE
 
 extension ___VARIABLE_productName:identifier___Presenter: InteractorToPresenter___VARIABLE_productName:identifier___Protocol {
     
+    func showAlert(_ title: String, _ message: String) {
+        view?.showAlert(title, message)
+    }
+
 }
